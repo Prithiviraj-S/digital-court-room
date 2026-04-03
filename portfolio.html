@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="portfolio.css">
+    <title>Justice System Room - Digital Courtroom</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">⚖️ JUSTICE SYSTEM</a>
+
+        <nav>
+            <a href="#" class="active">Court Room</a>
+            <a href="#" >Cases</a>
+            <a href="#" >Laws</a>
+            <a href="#" >Judiciary</a>
+            <a href="#" >Evidence</a>             
+            <a href="#" >Appeal</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-img glitch-image">
+            <div class="gavel-icon"><img src="ba15b168ab5ed32288edaaa352a2fc9c.jpg" alt=""></div>
+        </div>
+        <div class="home-content">
+            <h1>Welcome to the <span>Digital Courtroom</span></h1>
+            <h3 class="typing-text">Justice System<span></span></h3>
+            <p> legal proceedings, and justice administration. Access case files, submit legal documents, and manage court proceedings with authority and transparency. justice is the tools of solve the peoples problem not a killing manner.so we will using the justice for the good one.so i hope anywhere.justice only bring the peace.i am the normal people anywhere.everythinh is alright.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fas fa-gavel"></i></a>
+                <a href="#"><i class="fas fa-balance-scale"></i></a>
+                <a href="#"><i class="fas fa-book-open"></i></a>
+                <a href="#"><i class="fas fa-shield-alt"></i></a>
+            </div>
+            <a href="#database" class="btn">Say Your Sadness</a>
+        </div>
+    </section>
+
+    <!-- Justice System Database Section -->
+    <section id="database" class="database-section">
+        <h2 class="section-title" data-text="CASE MANAGEMENT SYSTEM">
+            <span class="title-line"></span>
+            <span class="glitch">CASE MANAGEMENT SYSTEM</span>
+            <span class="title-line"></span>
+        </h2>
+
+        
+            
+
+            <!-- Input Section -->
+            <div class="input-panel animate-slide-in">
+                <h3>📋 SUBMIT CASE</h3>
+                <form id="caseForm" class="case-form">
+                    <div class="form-group">
+                        <label>Case Type</label>
+                        <select id="caseType" required>
+                            <option>Criminal Defense</option>
+                            <option>Civil Litigation</option>
+                            <option>Intellectual Property</option>
+                            <option>Family Law</option>
+                            <option>Corporate Law</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Plaintiff</label>
+                        <input type="text" id="plaintiff" placeholder="Enter plaintiff name" required>
+                    
+                    </div>
+                    <div class="form-group">
+                        <label>Defendant</label>
+                        <input type="text" id="defendant" placeholder="Enter defendant name" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Description</label>
+                        <textarea id="description" placeholder="Enter case description" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">⚖️ SUBMIT CASE</button>
+                </form>
+            </div>
+
+        
+    
+        </div>
+    </section>
+
+    <script src="justice_database.js"></script>
+</body>
+</html>
